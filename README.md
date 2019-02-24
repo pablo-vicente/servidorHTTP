@@ -36,7 +36,6 @@ Para Usar o Servidor:
     
     Terminal/CMD: digite "curl http://localhost:3000/numero "número no intervalo ex: http://localhost:3000/5
 
-Resultado valor por extenso
                                                                  
     
 

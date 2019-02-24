@@ -137,7 +137,6 @@ function converteParaExtenso(inteiro){
 				break;
 		}
 		if(inteiro ==="0"){//Verifica se numero e redonoo inteiro,
-			//tamanho = 0; //Para sair do while
 			break;
 		}else {
 			tamanho = inteiro.length;
