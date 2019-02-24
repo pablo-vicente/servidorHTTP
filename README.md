@@ -17,7 +17,7 @@ Download Docker: https://hub.docker.com/editions/community/docker-ce-desktop-win
 Em SETTING Habilitar "Expose daemon on TCP://localhost:2375 without LTS
 
 TERMINAL/CMD: 
-    Dentro da pasta Ex: "CD desktop/servidorHTTP1-readme-edits"
+    Dentro da pasta Ex: "CD desktop/servidorHTTP-master"
     Digite o comando: "docker-compose up"
     "server_1  | Server running at http://0.0.0.0:3000" indica servidor está funcionando
     Para finalizado digite "CTRL+C"
@@ -25,7 +25,7 @@ TERMINAL/CMD:
     --
     Caso execute o comando acima novamente é preciso desligar o container 
     Digite "dcocker ps"
-    Copie código "CONTAINER ID" do container com nome "servidorhttp1-readme-edits_server!" ou nome da pasta
+    Copie código "CONTAINER ID" do container com nome "servidorHTTP-master" ou nome da pasta
     Digite "docker stop /código/"
     Aguarde até aparecer número
     Verifique se container finalizou digitando "dcocker ps", agora não deverá ter nenhum
