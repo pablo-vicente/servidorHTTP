@@ -25,7 +25,7 @@ TERMINAL/CMD:
     --
     Caso execute o comando acima novamente é preciso desligar o container 
     Digite "dcocker ps"
-    Copie código "CONTAINER ID" do container com nome "servidorHTTP-master" ou nome da pasta
+    Copie código "CONTAINER ID" do container com nome "servidorhttp-master_server_1"
     Digite "docker stop /código/"
     Aguarde até aparecer número
     Verifique se container finalizou digitando "dcocker ps", agora não deverá ter nenhum
