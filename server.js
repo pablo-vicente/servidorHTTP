@@ -144,4 +144,5 @@ function converteParaExtenso(inteiro){
 		}
 	}
 	return extenso;
+	//the end
 }
