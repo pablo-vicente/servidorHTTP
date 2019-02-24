@@ -1,6 +1,6 @@
-const http = require('http')
-const port = 3000
-const hostname = 'localhost'
+const http = require('http');
+const port = 3000;
+const hostname = '0.0.0.0';
 
 
 
@@ -35,10 +35,10 @@ function validarNumero(numero){
 			//Verifica se número está intervalor 0 - 99.999, testa somente o positivo
 			if (numeroLimpo>=0 && numeroLimpo<=99999) {
 				var valorEmExtenso = converteParaExtenso(numeroLimpo);
-				if(sinal === false){
-					valorEmExtenso = "menos " + valorEmExtenso;
+				if(sinal === true || valorEmExtenso === "zero"){
 					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
 				}else {
+					valorEmExtenso = "menos " + valorEmExtenso;
 					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
 				}
 			}
@@ -137,7 +137,6 @@ function converteParaExtenso(inteiro){
 				break;
 		}
 		if(inteiro ==="0"){//Verifica se numero e redonoo inteiro,
-			//tamanho = 0; //Para sair do while
 			break;
 		}else {
 			tamanho = inteiro.length;
