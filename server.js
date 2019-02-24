@@ -1,6 +1,6 @@
-const http = require('http')
-const port = 3000
-const hostname = 'localhost'
+const http = require('http');
+const port = 3000;
+const hostname = '0.0.0.0';
 
 
 
@@ -37,9 +37,9 @@ function validarNumero(numero){
 				var valorEmExtenso = converteParaExtenso(numeroLimpo);
 				if(sinal === false){
 					valorEmExtenso = "menos " + valorEmExtenso;
-					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
+					return JSON.stringify({'extenso': valorEmExtenso + "Pablo 1"},null,'\t');
 				}else {
-					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
+					return JSON.stringify({'extenso': valorEmExtenso + "Pablo"},null,'\t');
 				}
 			}
 		}
