@@ -35,11 +35,11 @@ function validarNumero(numero){
 			//Verifica se número está intervalor 0 - 99.999, testa somente o positivo
 			if (numeroLimpo>=0 && numeroLimpo<=99999) {
 				var valorEmExtenso = converteParaExtenso(numeroLimpo);
-				if(sinal === false){
-					valorEmExtenso = "menos " + valorEmExtenso;
-					return JSON.stringify({'extenso': valorEmExtenso + "Pablo 1"},null,'\t');
+				if(sinal === true || valorEmExtenso === "zero"){
+					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
 				}else {
-					return JSON.stringify({'extenso': valorEmExtenso + "Pablo"},null,'\t');
+					valorEmExtenso = "menos " + valorEmExtenso;
+					return JSON.stringify({'extenso': valorEmExtenso},null,'\t');
 				}
 			}
 		}
