@@ -20,8 +20,7 @@
         3.1° Dentro da pasta Ex: "CD desktop/servidorHTTP-master"
         3.2° Digite o comando: "docker-compose up"
         3.3° Mensagem "server_1  | Server running at http://0.0.0.0:3000" indica servidor está funcionando
-        3.4° Para finalizar o servidor digite "CTRL+C"
-    
+        3.4° Para finalizar o servidor digite "CTRL+C"  
     --
     3.5° Caso execute o comando acima novamente é preciso desligar o container 
       3.5.1° Digite "dcocker ps"
@@ -38,7 +37,6 @@
     3° Execute o comando para iniciar o servidor "node server.js"
     4° Mensagem "server_1  | Server running at http://0.0.0.0:3000" indica servidor está funcionando
     5° Para finalizar o servidor digite "CTRL+C"
-
 ---------------------------------------------------------------------------------------------------------------
                                   Testando
 ---------------------------------------------------------------------------------------------------------------
